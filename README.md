@@ -12,4 +12,4 @@ $ ./ackermann
 El programa imprimirá valores muy rápido, pero ack(4,1) tarda un rato, y ack(4,2) simplemente es una cantidad muy 
 grande de tiempo que el SO romperá el programa.
 
-Este programa es más una curiosidad que algo reamente útil.
+Este programa es más una curiosidad que algo realmente útil.
