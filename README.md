@@ -1,15 +1,13 @@
 # Ackermann-Program
 
-Este es un programa cuya carga computacional crece de manera súper exponencial, hasta el punto que para
-valores no muy grandes, el programa simplemente se rompe debido al enorme tiempo de ejecución.
+This is a programm which computational complexity grows incredibly fast, up to the point that, for little integers, the programm has to stop due to the huge amount of execution time.
 
-Para ejecutar el programa en Linux, simplemente descarga el archivo e introduce en la terminal:
+To execute the programm in Linux, just download the .cpp file and enter in the terminal:
 
 $ g++ ackermann.cpp -o ackermann
 
 $ ./ackermann
 
-El programa imprimirá valores muy rápido, pero ack(4,1) tarda un rato, y ack(4,2) simplemente es una cantidad muy 
-grande de tiempo que el SO romperá el programa.
+The programm will print numbers really fast, but ack(4,1) takes a while, and ack(4,2) will never reach a solution because it takes a ridiculous amount of time, so the OS will kill it.
 
-Este programa es más una curiosidad que algo realmente útil.
+This programm is more a curiosity rather than something useful, just to understand how far recursive functions can go.
