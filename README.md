@@ -4,7 +4,7 @@ This is a programm which computational complexity grows incredibly fast, up to t
 
 To execute the programm in Linux, just download the .cpp file and enter in the terminal:
 
-```
+``` bash
 $ g++ ackermann.cpp -o ackermann
 $ ./ackermann
 ```
