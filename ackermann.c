@@ -46,7 +46,7 @@ int main(int argc, char* argv[]){
     for (j=0; j<=second; j++){
       CONT = 0;
       ack_res = ack(i,j);
-      printf("ack(%u,%u)=%u. Iteraciones: %llu\n",i,j,ack_res,CONT);
+      printf("ack(%u,%u)=%u. Iterations: %llu\n",i,j,ack_res,CONT);
     }
   }
 }
